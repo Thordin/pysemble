@@ -6,7 +6,7 @@ Python Inline Assembler
 Use i386 assembly inside Python without calling an external program. Python integers and ctype values can
 be referenced inside the assembly just like C.
 
-=== Example ===
+### Example ###
 
 ```python
 import pysemble
@@ -30,7 +30,7 @@ MessageBox('hello world 123')
 print register
 ```
 
-=== Why Pysemble ===
+### Why Pysemble ###
 
 There are quite a few "pyasm" projects on the Internet already but they all had shortcomings. Here is why
 Pysemble is better.
@@ -40,7 +40,7 @@ Pysemble is better.
 * Allows referencing python variables.
 * Creates a callable function.
 
-=== Requirements ===
+### Requirements ###
 
 Python with ctypes. Currently supports i386 on Windows only. It can be ported to Linux if you can port FASM.
 
